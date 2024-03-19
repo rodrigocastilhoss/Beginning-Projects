@@ -1,0 +1,15 @@
+import random
+print('Faça o seu sorteio de 10 pessoas!')
+p1=str(input('Nome 1: '))
+p2=str(input('Nome 2: '))
+p3=str(input('Nome 3: '))
+p4=str(input('Nome 4: '))
+p5=str(input('Nome 5: '))
+p6=str(input('Nome 6: '))
+p7=str(input('Nome 7: '))
+p8=str(input('Nome 8: '))
+p9=str(input('Nome 9: '))
+p10=str(input('Nome 10: '))
+lista=[p1,p2,p3,p4,p5,p6,p7,p8,p9,p10]
+sorteio=random.choice(lista)
+print("Seu amigo secreto é: {}".format(sorteio))
