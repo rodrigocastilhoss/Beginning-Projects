@@ -1,0 +1,8 @@
+n1=float(input('Digite a nota que você tirou na prova 1: '))
+n2=float(input('Digite a nota que você tirou na prova 2: '))
+m=(n1+n2)/2
+print('A sua média foi {:.2f}'.format(m))
+if m >=7:
+    print('Parabéns! Você foi aprovado!')
+else:
+    print('Você foi reprovado.')
